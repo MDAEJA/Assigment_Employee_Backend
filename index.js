@@ -5,7 +5,7 @@ const cors = require("cors");
 // import dbConnection from "./DbConnection/dbConnection";
 
 const corsOptions = {
-    origin : "http://localhost:3000",
+    origin : "https://peppy-choux-4dcc76.netlify.app",
     Credential : true
 }
 const app = express();
